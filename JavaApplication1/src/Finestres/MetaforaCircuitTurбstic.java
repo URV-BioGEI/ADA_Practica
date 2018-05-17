@@ -9,12 +9,12 @@ package Finestres;
  *
  * @author toful
  */
-public class MetaforaCircuitTurístic extends javax.swing.JFrame {
+public class MetaforaCircuitTuristic extends javax.swing.JFrame {
 
     /**
      * Creates new form MetaforaTransport
      */
-    public MetaforaCircuitTurístic() {
+    public MetaforaCircuitTuristic() {
         initComponents();
     }
 
@@ -61,6 +61,12 @@ public class MetaforaCircuitTurístic extends javax.swing.JFrame {
         jTextField3.setText("999.99");
 
         jTextField4.setText("99");
+
+        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox2ActionPerformed(evt);
+            }
+        });
 
         jLabel7.setText("Pais:");
 
@@ -159,6 +165,10 @@ public class MetaforaCircuitTurístic extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox3ActionPerformed
 
+    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -176,21 +186,23 @@ public class MetaforaCircuitTurístic extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MetaforaCircuitTurístic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MetaforaCircuitTuristic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MetaforaCircuitTurístic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MetaforaCircuitTuristic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MetaforaCircuitTurístic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MetaforaCircuitTuristic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MetaforaCircuitTurístic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MetaforaCircuitTuristic.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MetaforaCircuitTurístic().setVisible(true);
+                new MetaforaCircuitTuristic().setVisible(true);
             }
         });
     }

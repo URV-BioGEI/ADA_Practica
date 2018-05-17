@@ -8,12 +8,12 @@
  *
  * @author toful
  */
-public class Confirmació extends javax.swing.JFrame {
+public class Confirmacio extends javax.swing.JFrame {
 
     /**
      * Creates new form FinestraPrimaria
      */
-    public Confirmació() {
+    public Confirmacio() {
         initComponents();
     }
 
